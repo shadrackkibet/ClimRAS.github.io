@@ -26,7 +26,7 @@ body {
 /* Header styles */
 
 header {
-    background-color: #2c3e50;
+    background-color: #1465b6;
     padding: 10px 0;
     text-align: center;
 }
@@ -46,9 +46,9 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #141111;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 nav a:hover {
@@ -59,8 +59,8 @@ nav a:hover {
 /* Banner styles */
 
 .banner {
-    background-color: #3498db;
-    color: #fff;
+    background-color: #eef1f4;
+    color: #050000;
     text-align: center;
     padding: 50px 0;
     animation: fadeIn 1s;
@@ -123,6 +123,7 @@ footer p {
 @media screen and (max-width: 768px) {
     header img {
         max-height: 50px;
+        max-width: 50px;
     }
     nav li {
         display: block;

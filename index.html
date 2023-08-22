@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ClimRAS- Building Resilience, Empowering Climate Solutions </title>
+    <!-- Add Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -21,6 +23,10 @@
                     <li><a href="#work">Our Work</a></li>
                     <li><a href="#get-involved">Get Involved</a></li>
                     <li><a href="#contact">Contact Us</a></li>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
                 </ul>
             </nav>
         </div>
@@ -29,9 +35,26 @@
     <!-- Banner -->
     <section class="banner">
         <div class="container">
-            <h1>ClimRAS </h1>
+            <h1>Climate Risk Assessment and Solutions (ClimRAS) </h1>
             <h3>Building Resilience, Empowering Climate Solutions</h3>
-            <img src="images/banner_image.png" alt="Diverse group working together">
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="images/image1.jpg" alt="Image 1">
+                </div>
+                <div class="image-item">
+                    <img src="images/image2.jpg" alt="Image 2">
+                </div>
+                <div class="image-item">
+                    <img src="images/image3.jpg" alt="Image 3">
+                </div>
+                <div class="image-item">
+                    <img src="images/image4.jpg" alt="Image 3">
+                </div>
+                <div class="image-item">
+                    <img src="images/image5.jpg" alt="Image 3">
+                </div>
+                <!-- Add more image items as needed -->
+            </div>
         </div>
     </section>
 
@@ -39,7 +62,10 @@
     <section id="home">
         <div class="container">
             <h2>Who We Are</h2>
-            <p>Brief introduction to the organization and its mission to assess and mitigate climate risks.</p>
+            <p>We strive to collaborate with diverse stakeholders to develop comprehensive strategies, provide expertise, and implement actionable measures that mitigate climate-related challenges and create a more sustainable and secure future. By fostering
+                knowledge-sharing, promoting awareness, and advocating for effective policies, we aim to empower individuals, organizations, and communities to take collective actions towards a climate-resilient and environmentally habitable and responsible
+                world
+            </p>
         </div>
     </section>
 
@@ -55,24 +81,22 @@
     <section id="mission">
         <div class="container">
             <h2>Our Mission</h2>
-            <p>To identify, analyze, and address climate risks through innovative solutions that promote resilience, sustainability, and global cooperation. We strive to collaborate with diverse stakeholders to develop comprehensive strategies, provide expertise,
-                and implement actionable measures that mitigate climate-related challenges and create a more sustainable and secure future. By fostering knowledge-sharing, promoting awareness, and advocating for effective policies, we aim to empower individuals,
-                organizations, and communities to take collective actions towards a climate-resilient and environmentally habitableresponsible world</p>
+            <p>To identify, analyze, and address climate risks through innovative solutions that promote resilience, sustainability, and global cooperation.</p>
         </div>
     </section>
 
     <!-- Our Work -->
     <section id="work">
         <div class="container">
-            <h2>Our Work is guided by the follow Values</h2>
+            <h2>Our Work is guided by the following Values</h2>
             <p><b>Sustainability:</b> ClimRas values sustainability, aiming to promote long-term solutions that effectively address climate risks. It prioritizes strategies and actions that contribute to the well-being of the environment, society, and future
                 generations
             </p>
             <p> <b>Collaboration:</b> ClimRas values collaboration and recognizes the importance of working with diverse stakeholders, including governments, communities, businesses, and experts. It believes that collective actions and partnerships are essential
                 in finding comprehensive solutions to climate risks.
             </p>
-            <p> <b>Innovation:</b> values innovation, seeking out creative and cutting-edge approaches to address climate risks and develop sustainable solutions. It encourages the exploration and adoption of new technologies, practices, and policies that
-                can effectively tackle the challenges posed by climate change.
+            <p> <b>Innovation:</b> ClimRAS values innovation, seeking out creative and cutting-edge approaches to address climate risks and develop sustainable solutions. It encourages the exploration and adoption of new technologies, practices, and policies
+                that can effectively tackle the challenges posed by climate change.
             </p>
         </div>
     </section>
@@ -89,18 +113,52 @@
     <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>Contact form for general inquiries or collaboration requests.</p>
+            <p>Email, phone number</p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2023 ClimRAS. All rights reserved.</p>
+            <p>&copy; 2023 ClimRAS. All rights reserved.
+                <!--   <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a> -->
+                <!-- Add more social media icons as needed -->
+            </p>
         </div>
     </footer>
 
     <!-- Optional: Add JavaScript for animations or other dynamic elements -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            overflow: hidden;
+            /* Hide horizontal scrollbars */
+        }
+        
+        .image-container {
+            display: flex;
+            overflow: visible;
+            /* Hide overflowing images */
+            white-space: nowrap;
+            /* Keep images in a single line */
+            animation: moveImages 15s linear infinite;
+            /* Animation */
+        }
+        
+        @keyframes moveImages {
+            0% {
+                transform: translateX(-100%);
+            }
+            300% {
+                transform: translateX(100%);
+            }
+        }
+    </style>
 </body>
 
 </html>
